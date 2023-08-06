@@ -1,0 +1,109 @@
+header{
+    height: 100px;
+    width: 100%;
+    background-color:rgb(18, 18, 74);
+    text-align: center;
+}
+h1{
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+ul li {
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    padding-top: 10px;
+    margin: 15px;
+    color: white;
+    position: relative;
+}
+ul li a::after{
+    content:'';
+    width:0;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    transition: 0.5s;
+}
+ul li a:hover::after{
+    width: 100%;
+
+}
+.grid{
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    padding-left: 70px;
+}
+.m img{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+.para{
+    padding-left: 120px;
+    padding-top: 130PX;
+    padding-right: 90px;
+}
+.para p{
+   font-size: 17px;
+    text-align: left;
+    
+}
+.c1{
+    text-align: center;
+}
+.p{
+    
+    text-align: center;
+    color:black;
+   
+}
+.p p{
+    text-align:center;
+    font-size: 15px;
+}
+.grid1{
+    height: 200px;
+    margin-top: 20px;
+    background-color: rgb(78, 78, 184);
+    border-radius: 20px;
+}
+.c3{
+
+    padding-top: 10px;
+}
+.c4{
+    padding-left: 350px;
+    text-align: left;
+    color: white;
+}
+li{
+    
+    /*margin-top: 10px;
+    margin-left: 80px;
+    font-size: 20px;
+    padding-top: 40px;*/
+    font-size: 15px;
+    display:inline-block;
+    margin-right:4px ;
+  }
+#skills h2{
+    padding: 20px;
+}
+#contact{
+    margin-top: 80px;
+    text-align: center;
+}
+footer {
+    margin-top: 60px;
+    background-color:rgb(18, 18, 74);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
